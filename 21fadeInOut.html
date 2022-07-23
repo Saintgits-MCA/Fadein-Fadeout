@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	$(document).ready(function()
+	{
+ 	 	$("#btn1").click(function()
+		{
+   	 		$("div").fadeOut("slow", "swing");
+  	});
+  	 $("#btn2").click(function()
+	{
+   	 	$("div").fadeIn("fast","linear");
+  	}); 
+	});
+</script>
+<title>Fade in and fade out all division elements</title>
+</head>
+<body>
+<div style="background:pink;width:100%;">Div Element 1</div>
+<p style="background:pink;width:50%;">Paragraph element 1</p>
+<div style="background:blue;width:100%;">Div Element 2</div>
+<p style="background:red;width:50%;">Paragraph element 1</p>
+<div style="background:green;width:100%;">Div Element 3</div>
+<br><br>
+<button id="btn2">Fade In (2 Second)</button>
+<button id="btn1">Fade Out (2 Second)</button>
+</body>
+</html>
+
+
+
